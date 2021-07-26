@@ -1,0 +1,11 @@
+.inputArea{
+    width: 250px;
+    outline: none;
+    height: 50px;
+    margin-bottom: 6px;
+}
+
+.error_label{
+    color: red;
+    padding-top: 3px
+}

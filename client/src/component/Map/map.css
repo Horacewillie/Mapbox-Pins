@@ -1,0 +1,86 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    justify-content: space-around;
+}
+
+label{
+    width: max-content;
+    font-size: 13px;
+    color: tomato;
+    border-bottom: 1px solid tomato;
+    margin-bottom: 3px 0px;
+}
+
+.desc,.createdby{
+    font-size: 14px;
+}
+.date{
+    font-size: 12px;
+}
+
+.star{
+    color: gold;
+}
+
+.popup_form{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input, textarea{
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+
+select{
+    outline: none
+}
+
+input::placeholder, textarea::placeholder{
+    font-style: 12px;
+    color: rgb(199, 198, 198)
+}
+
+.submitButton{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.button{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    color: white;
+}
+
+.logout{
+    background-color:tomato;
+}
+
+.login{
+    background-color:teal;
+    width: 55px;
+    margin-right: 3px;
+}
+
+.register{
+    background-color:slateblue;
+}
+
+.authButton, .logout{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
